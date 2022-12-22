@@ -53,7 +53,14 @@ const theme = {
             border-radius: 0.3rem;
             `
         }
-
+    },
+    card: {
+        imgVariants: {
+            top: css`
+            border-top-left-radius: calc(0.25rem - 1px);
+            border-top-right-radius: calc(0.25rem - 1px);
+            `
+        }
     }
 }
 
